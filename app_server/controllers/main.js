@@ -3,5 +3,5 @@ var router = express.Router();
 
 //anasayfayı yöneten metod
 module.exports.index = function(req,res,next){
-  res.render('index', {title: 'FURKAN'});
+  res.render('index', {title: 'Furkan'});
 }
