@@ -12,7 +12,7 @@ const anaSayfa = function (req, res, next) {
         {
           'ad': 'Starbucks',
           'adres': 'Centrum Garden',
-          'puan': '3',
+          'puan': '4',
           'imkanlar': ['Kahve', 'Çay', 'Pasta'],
           'mesafe': '10km'
         },
@@ -62,7 +62,7 @@ const mekanBilgisi = function (req, res, next) {
       'mekanBilgisi':{
         'ad':'Starbucks',
         'adres':'Centrum Garden',
-        'puan':3,
+        'puan':4,
         'imkanlar':['Kahve','Paste','Kek'],
         'koordinatlar':{
           'enlem':37.781885,
@@ -90,8 +90,14 @@ const mekanBilgisi = function (req, res, next) {
           {
             'yorumYapan':'Furkan Tarhan',
             'puan':3,
-            'tarih':'11 Mayıs 2020',
-            'yorumMetni':'Kahveler Enfesss'
+            'tarih':'1 Aralık 2020',
+            'yorumMetni':'Kahveler Enfessssss'
+          },
+          {
+            'yorumYapan':'Utku Dericioğlu',
+            'puan':5,
+            'tarih':'2 Aralık 2020',
+            'yorumMetni':'Buranın Kahveleri Harika!'
           }
        ]
     }
